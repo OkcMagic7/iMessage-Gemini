@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA3056C2B650E730025F50E /* iMessageGeminiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA3056B2B650E730025F50E /* iMessageGeminiApp.swift */; };
+		AEA3056E2B650E730025F50E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA3056D2B650E730025F50E /* ContentView.swift */; };
+		AEA305702B650E770025F50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA3056F2B650E770025F50E /* Assets.xcassets */; };
+		AEA305742B650E770025F50E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA305732B650E770025F50E /* Preview Assets.xcassets */; };
+		AEA3057E2B650E770025F50E /* iMessageGeminiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA3057D2B650E770025F50E /* iMessageGeminiTests.swift */; };
+		AEA305882B650E780025F50E /* iMessageGeminiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA305872B650E780025F50E /* iMessageGeminiUITests.swift */; };
+		AEA3058A2B650E780025F50E /* iMessageGeminiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA305892B650E780025F50E /* iMessageGeminiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEA3057A2B650E770025F50E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA305602B650E730025F50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA305672B650E730025F50E;
+			remoteInfo = iMessageGemini;
+		};
+		AEA305842B650E780025F50E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA305602B650E730025F50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA305672B650E730025F50E;
+			remoteInfo = iMessageGemini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEA305682B650E730025F50E /* iMessageGemini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMessageGemini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA3056B2B650E730025F50E /* iMessageGeminiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageGeminiApp.swift; sourceTree = "<group>"; };
+		AEA3056D2B650E730025F50E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEA3056F2B650E770025F50E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEA305712B650E770025F50E /* iMessageGemini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iMessageGemini.entitlements; sourceTree = "<group>"; };
+		AEA305732B650E770025F50E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEA305792B650E770025F50E /* iMessageGeminiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMessageGeminiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA3057D2B650E770025F50E /* iMessageGeminiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageGeminiTests.swift; sourceTree = "<group>"; };
+		AEA305832B650E780025F50E /* iMessageGeminiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMessageGeminiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA305872B650E780025F50E /* iMessageGeminiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageGeminiUITests.swift; sourceTree = "<group>"; };
+		AEA305892B650E780025F50E /* iMessageGeminiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageGeminiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA305652B650E730025F50E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA305762B650E770025F50E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA305802B650E780025F50E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA3055F2B650E730025F50E = {
+			isa = PBXGroup;
+			children = (
+				AEA3056A2B650E730025F50E /* iMessageGemini */,
+				AEA3057C2B650E770025F50E /* iMessageGeminiTests */,
+				AEA305862B650E780025F50E /* iMessageGeminiUITests */,
+				AEA305692B650E730025F50E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA305692B650E730025F50E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA305682B650E730025F50E /* iMessageGemini.app */,
+				AEA305792B650E770025F50E /* iMessageGeminiTests.xctest */,
+				AEA305832B650E780025F50E /* iMessageGeminiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEA3056A2B650E730025F50E /* iMessageGemini */ = {
+			isa = PBXGroup;
+			children = (
+				AEA3056B2B650E730025F50E /* iMessageGeminiApp.swift */,
+				AEA3056D2B650E730025F50E /* ContentView.swift */,
+				AEA3056F2B650E770025F50E /* Assets.xcassets */,
+				AEA305712B650E770025F50E /* iMessageGemini.entitlements */,
+				AEA305722B650E770025F50E /* Preview Content */,
+			);
+			path = iMessageGemini;
+			sourceTree = "<group>";
+		};
+		AEA305722B650E770025F50E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AEA305732B650E770025F50E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEA3057C2B650E770025F50E /* iMessageGeminiTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA3057D2B650E770025F50E /* iMessageGeminiTests.swift */,
+			);
+			path = iMessageGeminiTests;
+			sourceTree = "<group>";
+		};
+		AEA305862B650E780025F50E /* iMessageGeminiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA305872B650E780025F50E /* iMessageGeminiUITests.swift */,
+				AEA305892B650E780025F50E /* iMessageGeminiUITestsLaunchTests.swift */,
+			);
+			path = iMessageGeminiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEA305672B650E730025F50E /* iMessageGemini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA3058D2B650E780025F50E /* Build configuration list for PBXNativeTarget "iMessageGemini" */;
+			buildPhases = (
+				AEA305642B650E730025F50E /* Sources */,
+				AEA305652B650E730025F50E /* Frameworks */,
+				AEA305662B650E730025F50E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMessageGemini;
+			productName = iMessageGemini;
+			productReference = AEA305682B650E730025F50E /* iMessageGemini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEA305782B650E770025F50E /* iMessageGeminiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA305902B650E780025F50E /* Build configuration list for PBXNativeTarget "iMessageGeminiTests" */;
+			buildPhases = (
+				AEA305752B650E770025F50E /* Sources */,
+				AEA305762B650E770025F50E /* Frameworks */,
+				AEA305772B650E770025F50E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA3057B2B650E770025F50E /* PBXTargetDependency */,
+			);
+			name = iMessageGeminiTests;
+			productName = iMessageGeminiTests;
+			productReference = AEA305792B650E770025F50E /* iMessageGeminiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEA305822B650E780025F50E /* iMessageGeminiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA305932B650E780025F50E /* Build configuration list for PBXNativeTarget "iMessageGeminiUITests" */;
+			buildPhases = (
+				AEA3057F2B650E780025F50E /* Sources */,
+				AEA305802B650E780025F50E /* Frameworks */,
+				AEA305812B650E780025F50E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA305852B650E780025F50E /* PBXTargetDependency */,
+			);
+			name = iMessageGeminiUITests;
+			productName = iMessageGeminiUITests;
+			productReference = AEA305832B650E780025F50E /* iMessageGeminiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA305602B650E730025F50E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AEA305672B650E730025F50E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					AEA305782B650E770025F50E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AEA305672B650E730025F50E;
+					};
+					AEA305822B650E780025F50E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AEA305672B650E730025F50E;
+					};
+				};
+			};
+			buildConfigurationList = AEA305632B650E730025F50E /* Build configuration list for PBXProject "iMessageGemini" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEA3055F2B650E730025F50E;
+			productRefGroup = AEA305692B650E730025F50E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA305672B650E730025F50E /* iMessageGemini */,
+				AEA305782B650E770025F50E /* iMessageGeminiTests */,
+				AEA305822B650E780025F50E /* iMessageGeminiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEA305662B650E730025F50E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA305742B650E770025F50E /* Preview Assets.xcassets in Resources */,
+				AEA305702B650E770025F50E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA305772B650E770025F50E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA305812B650E780025F50E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA305642B650E730025F50E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA3056E2B650E730025F50E /* ContentView.swift in Sources */,
+				AEA3056C2B650E730025F50E /* iMessageGeminiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA305752B650E770025F50E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA3057E2B650E770025F50E /* iMessageGeminiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA3057F2B650E780025F50E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA305882B650E780025F50E /* iMessageGeminiUITests.swift in Sources */,
+				AEA3058A2B650E780025F50E /* iMessageGeminiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEA3057B2B650E770025F50E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA305672B650E730025F50E /* iMessageGemini */;
+			targetProxy = AEA3057A2B650E770025F50E /* PBXContainerItemProxy */;
+		};
+		AEA305852B650E780025F50E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA305672B650E730025F50E /* iMessageGemini */;
+			targetProxy = AEA305842B650E780025F50E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AEA3058B2B650E780025F50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEA3058C2B650E780025F50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AEA3058E2B650E780025F50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iMessageGemini/iMessageGemini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iMessageGemini/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = okcMAGiX.iMessageGemini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEA3058F2B650E780025F50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iMessageGemini/iMessageGemini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iMessageGemini/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = okcMAGiX.iMessageGemini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEA305912B650E780025F50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = okcMAGiX.iMessageGeminiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMessageGemini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iMessageGemini";
+			};
+			name = Debug;
+		};
+		AEA305922B650E780025F50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = okcMAGiX.iMessageGeminiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMessageGemini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iMessageGemini";
+			};
+			name = Release;
+		};
+		AEA305942B650E780025F50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = okcMAGiX.iMessageGeminiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMessageGemini;
+			};
+			name = Debug;
+		};
+		AEA305952B650E780025F50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = okcMAGiX.iMessageGeminiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMessageGemini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA305632B650E730025F50E /* Build configuration list for PBXProject "iMessageGemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA3058B2B650E780025F50E /* Debug */,
+				AEA3058C2B650E780025F50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA3058D2B650E780025F50E /* Build configuration list for PBXNativeTarget "iMessageGemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA3058E2B650E780025F50E /* Debug */,
+				AEA3058F2B650E780025F50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA305902B650E780025F50E /* Build configuration list for PBXNativeTarget "iMessageGeminiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA305912B650E780025F50E /* Debug */,
+				AEA305922B650E780025F50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA305932B650E780025F50E /* Build configuration list for PBXNativeTarget "iMessageGeminiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA305942B650E780025F50E /* Debug */,
+				AEA305952B650E780025F50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEA305602B650E730025F50E /* Project object */;
+}

@@ -1,0 +1,10 @@
+#  <#Title#>
+
+{
+    "apiBaseUrl": "https://api.example.com",
+    "apiKey": "12345",
+    "featureToggle": {
+        "chatEnabled": true,
+        "loggingEnabled": false
+    }
+}

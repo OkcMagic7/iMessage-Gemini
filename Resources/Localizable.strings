@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  iMessageGemini
+
+  Created by Hunter Ward on 1/30/24.
+  
+*/
+// Localizable.strings
+
+"welcome_message" = "Welcome to our App!";
+"error_message" = "An error occurred";

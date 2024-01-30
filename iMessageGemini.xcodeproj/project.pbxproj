@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEA3056C2B650E730025F50E /* iMessageGeminiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA3056B2B650E730025F50E /* iMessageGeminiApp.swift */; };
-		AEA3056E2B650E730025F50E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA3056D2B650E730025F50E /* ContentView.swift */; };
-		AEA305702B650E770025F50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA3056F2B650E770025F50E /* Assets.xcassets */; };
-		AEA305742B650E770025F50E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA305732B650E770025F50E /* Preview Assets.xcassets */; };
-		AEA3057E2B650E770025F50E /* iMessageGeminiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA3057D2B650E770025F50E /* iMessageGeminiTests.swift */; };
-		AEA305882B650E780025F50E /* iMessageGeminiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA305872B650E780025F50E /* iMessageGeminiUITests.swift */; };
-		AEA3058A2B650E780025F50E /* iMessageGeminiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA305892B650E780025F50E /* iMessageGeminiUITestsLaunchTests.swift */; };
+		AE8F4BA62B68E16F00D3C2C5 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F4BA52B68E16F00D3C2C5 /* MessageController.swift */; };
+		AE8F4BA82B68E1A400D3C2C5 /* ScriptController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F4BA72B68E1A400D3C2C5 /* ScriptController.swift */; };
+		AE8F4BAB2B68E20800D3C2C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F4BAA2B68E20800D3C2C5 /* AppDelegate.swift */; };
+		AE8F4BAD2B68E23200D3C2C5 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F4BAC2B68E23200D3C2C5 /* Main.swift */; };
+		AE8F4BB02B68E28E00D3C2C5 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F4BAF2B68E28E00D3C2C5 /* Configuration.swift */; };
+		AE8F4BB22B68E2B900D3C2C5 /* PermissionsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F4BB12B68E2B900D3C2C5 /* PermissionsHelper.swift */; };
+		AE8F4BBC2B68E4C000D3C2C5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE8F4BBB2B68E4C000D3C2C5 /* Localizable.strings */; };
+		AE8F4BC22B68E5A400D3C2C5 /* environment.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE8F4BC12B68E5A400D3C2C5 /* environment.plist */; };
+		AE8F4BC42B68E65800D3C2C5 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F4BC32B68E65800D3C2C5 /* ConfigManager.swift */; };
+		AE8F4BC72B68E77600D3C2C5 /* GeminiAPIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F4BC62B68E77600D3C2C5 /* GeminiAPIManagerTests.swift */; };
+		AE8F4BCC2B68E85600D3C2C5 /* iMessageServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8F4BCB2B68E85600D3C2C5 /* iMessageServiceTest.swift */; };
+		AE8F4BCE2B68E8A100D3C2C5 /* API_Documentation.md in Resources */ = {isa = PBXBuildFile; fileRef = AE8F4BCD2B68E8A100D3C2C5 /* API_Documentation.md */; };
+		AE8F4BD02B68E8E900D3C2C5 /* Getting_Started.md in Resources */ = {isa = PBXBuildFile; fileRef = AE8F4BCF2B68E8E900D3C2C5 /* Getting_Started.md */; };
+		AE8F4BD22B68E90400D3C2C5 /* Integration_Guide.md in Resources */ = {isa = PBXBuildFile; fileRef = AE8F4BD12B68E90400D3C2C5 /* Integration_Guide.md */; };
+		AEA305A62B6515320025F50E /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA305A52B6515320025F50E /* MessageView.swift */; };
+		AEA305A82B65157E0025F50E /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA305A72B65157E0025F50E /* ErrorView.swift */; };
+		AEA305AB2B65160E0025F50E /* GeminiAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA305AA2B65160E0025F50E /* GeminiAPIManager.swift */; };
+		AEA305AD2B6516270025F50E /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA305AC2B6516270025F50E /* APIKey.swift */; };
+		AEA305B02B65167A0025F50E /* IMessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA305AF2B65167A0025F50E /* IMessageService.swift */; };
+		AEA305B22B6516A30025F50E /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA305B12B6516A30025F50E /* GeminiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +47,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE8F4BA52B68E16F00D3C2C5 /* MessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		AE8F4BA72B68E1A400D3C2C5 /* ScriptController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptController.swift; sourceTree = "<group>"; };
+		AE8F4BAA2B68E20800D3C2C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE8F4BAC2B68E23200D3C2C5 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		AE8F4BAF2B68E28E00D3C2C5 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		AE8F4BB12B68E2B900D3C2C5 /* PermissionsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsHelper.swift; sourceTree = "<group>"; };
+		AE8F4BB42B68E31C00D3C2C5 /* SendText.scpt */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = SendText.scpt; sourceTree = "<group>"; };
+		AE8F4BB52B68E36600D3C2C5 /* SendImage.scpt */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = SendImage.scpt; sourceTree = "<group>"; };
+		AE8F4BBB2B68E4C000D3C2C5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		AE8F4BBD2B68E51400D3C2C5 /* appConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = appConfig.json; sourceTree = "<group>"; };
+		AE8F4BC12B68E5A400D3C2C5 /* environment.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = environment.plist; sourceTree = "<group>"; };
+		AE8F4BC32B68E65800D3C2C5 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		AE8F4BC62B68E77600D3C2C5 /* GeminiAPIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiAPIManagerTests.swift; sourceTree = "<group>"; };
+		AE8F4BCB2B68E85600D3C2C5 /* iMessageServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageServiceTest.swift; sourceTree = "<group>"; };
+		AE8F4BCD2B68E8A100D3C2C5 /* API_Documentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = API_Documentation.md; sourceTree = "<group>"; };
+		AE8F4BCF2B68E8E900D3C2C5 /* Getting_Started.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Getting_Started.md; sourceTree = "<group>"; };
+		AE8F4BD12B68E90400D3C2C5 /* Integration_Guide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Integration_Guide.md; sourceTree = "<group>"; };
 		AEA305682B650E730025F50E /* iMessageGemini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMessageGemini.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEA3056B2B650E730025F50E /* iMessageGeminiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageGeminiApp.swift; sourceTree = "<group>"; };
-		AEA3056D2B650E730025F50E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AEA3056F2B650E770025F50E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AEA305712B650E770025F50E /* iMessageGemini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iMessageGemini.entitlements; sourceTree = "<group>"; };
-		AEA305732B650E770025F50E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEA305792B650E770025F50E /* iMessageGeminiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMessageGeminiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEA3057D2B650E770025F50E /* iMessageGeminiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageGeminiTests.swift; sourceTree = "<group>"; };
 		AEA305832B650E780025F50E /* iMessageGeminiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMessageGeminiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEA305872B650E780025F50E /* iMessageGeminiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageGeminiUITests.swift; sourceTree = "<group>"; };
-		AEA305892B650E780025F50E /* iMessageGeminiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageGeminiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AEA305962B650ECE0025F50E /* FileTree.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FileTree.md; sourceTree = "<group>"; };
+		AEA3059C2B650FD10025F50E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		AEA3059D2B6514210025F50E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		AEA3059E2B6514490025F50E /* ChatMessage.swif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swif.swift; sourceTree = "<group>"; };
+		AEA3059F2B6514690025F50E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AEA305A52B6515320025F50E /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		AEA305A72B65157E0025F50E /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		AEA305AA2B65160E0025F50E /* GeminiAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiAPIManager.swift; sourceTree = "<group>"; };
+		AEA305AC2B6516270025F50E /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		AEA305AF2B65167A0025F50E /* IMessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMessageService.swift; sourceTree = "<group>"; };
+		AEA305B12B6516A30025F50E /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +105,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE8F4BA42B68E15000D3C2C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F4BA52B68E16F00D3C2C5 /* MessageController.swift */,
+				AE8F4BA72B68E1A400D3C2C5 /* ScriptController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AE8F4BA92B68E1D700D3C2C5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F4BAA2B68E20800D3C2C5 /* AppDelegate.swift */,
+				AE8F4BAC2B68E23200D3C2C5 /* Main.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AE8F4BAE2B68E27600D3C2C5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F4BAF2B68E28E00D3C2C5 /* Configuration.swift */,
+				AE8F4BB12B68E2B900D3C2C5 /* PermissionsHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AE8F4BB32B68E2F000D3C2C5 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F4BB42B68E31C00D3C2C5 /* SendText.scpt */,
+				AE8F4BB52B68E36600D3C2C5 /* SendImage.scpt */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		AE8F4BB72B68E44C00D3C2C5 /* Assets.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F4BB82B68E45700D3C2C5 /* Images */,
+			);
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		AE8F4BB82B68E45700D3C2C5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AE8F4BC52B68E76600D3C2C5 /* JaredTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F4BCB2B68E85600D3C2C5 /* iMessageServiceTest.swift */,
+			);
+			path = JaredTests;
+			sourceTree = "<group>";
+		};
+		AE8F4BCA2B68E82200D3C2C5 /* JaredFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F4BC62B68E77600D3C2C5 /* GeminiAPIManagerTests.swift */,
+			);
+			path = JaredFrameworkTests;
+			sourceTree = "<group>";
+		};
 		AEA3055F2B650E730025F50E = {
 			isa = PBXGroup;
 			children = (
-				AEA3056A2B650E730025F50E /* iMessageGemini */,
-				AEA3057C2B650E770025F50E /* iMessageGeminiTests */,
-				AEA305862B650E780025F50E /* iMessageGeminiUITests */,
+				AE8F4BC32B68E65800D3C2C5 /* ConfigManager.swift */,
+				AEA3059C2B650FD10025F50E /* Package.swift */,
+				AEA305962B650ECE0025F50E /* FileTree.md */,
+				AEA305982B650F270025F50E /* Jared */,
+				AEA305972B650F160025F50E /* JaredFramework */,
+				AEA305992B650F4D0025F50E /* Resources */,
+				AEA3059A2B650F640025F50E /* Tests */,
+				AEA3059B2B650F7E0025F50E /* Documentation */,
 				AEA305692B650E730025F50E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,41 +197,94 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AEA3056A2B650E730025F50E /* iMessageGemini */ = {
+		AEA305972B650F160025F50E /* JaredFramework */ = {
 			isa = PBXGroup;
 			children = (
-				AEA3056B2B650E730025F50E /* iMessageGeminiApp.swift */,
-				AEA3056D2B650E730025F50E /* ContentView.swift */,
-				AEA3056F2B650E770025F50E /* Assets.xcassets */,
-				AEA305712B650E770025F50E /* iMessageGemini.entitlements */,
-				AEA305722B650E770025F50E /* Preview Content */,
+				AE8F4BA42B68E15000D3C2C5 /* Controllers */,
+				AEA305A92B6515C70025F50E /* Network */,
+				AEA305AE2B65166A0025F50E /* Services */,
+				AEA305A32B6514E60025F50E /* Views */,
+				AEA305A12B6514A10025F50E /* Models */,
 			);
-			path = iMessageGemini;
+			path = JaredFramework;
 			sourceTree = "<group>";
 		};
-		AEA305722B650E770025F50E /* Preview Content */ = {
+		AEA305982B650F270025F50E /* Jared */ = {
 			isa = PBXGroup;
 			children = (
-				AEA305732B650E770025F50E /* Preview Assets.xcassets */,
+				AE8F4BB32B68E2F000D3C2C5 /* Scripts */,
+				AE8F4BAE2B68E27600D3C2C5 /* Utilities */,
+				AE8F4BA92B68E1D700D3C2C5 /* Main */,
 			);
-			path = "Preview Content";
+			path = Jared;
 			sourceTree = "<group>";
 		};
-		AEA3057C2B650E770025F50E /* iMessageGeminiTests */ = {
+		AEA305992B650F4D0025F50E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AEA3057D2B650E770025F50E /* iMessageGeminiTests.swift */,
+				AE8F4BB72B68E44C00D3C2C5 /* Assets.xcassets */,
+				AE8F4BBB2B68E4C000D3C2C5 /* Localizable.strings */,
+				AE8F4BBD2B68E51400D3C2C5 /* appConfig.json */,
+				AE8F4BC12B68E5A400D3C2C5 /* environment.plist */,
 			);
-			path = iMessageGeminiTests;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		AEA305862B650E780025F50E /* iMessageGeminiUITests */ = {
+		AEA3059A2B650F640025F50E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				AEA305872B650E780025F50E /* iMessageGeminiUITests.swift */,
-				AEA305892B650E780025F50E /* iMessageGeminiUITestsLaunchTests.swift */,
+				AE8F4BCA2B68E82200D3C2C5 /* JaredFrameworkTests */,
+				AE8F4BC52B68E76600D3C2C5 /* JaredTests */,
 			);
-			path = iMessageGeminiUITests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		AEA3059B2B650F7E0025F50E /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F4BCD2B68E8A100D3C2C5 /* API_Documentation.md */,
+				AE8F4BCF2B68E8E900D3C2C5 /* Getting_Started.md */,
+				AE8F4BD12B68E90400D3C2C5 /* Integration_Guide.md */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		AEA305A12B6514A10025F50E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AEA3059F2B6514690025F50E /* User.swift */,
+				AEA3059E2B6514490025F50E /* ChatMessage.swif.swift */,
+				AEA3059D2B6514210025F50E /* Message.swift */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AEA305A32B6514E60025F50E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEA305A52B6515320025F50E /* MessageView.swift */,
+				AEA305A72B65157E0025F50E /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AEA305A92B6515C70025F50E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AEA305AA2B65160E0025F50E /* GeminiAPIManager.swift */,
+				AEA305AC2B6516270025F50E /* APIKey.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AEA305AE2B65166A0025F50E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AEA305AF2B65167A0025F50E /* IMessageService.swift */,
+				AEA305B12B6516A30025F50E /* GeminiService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +355,7 @@
 				TargetAttributes = {
 					AEA305672B650E730025F50E = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 					AEA305782B650E770025F50E = {
 						CreatedOnToolsVersion = 15.2;
@@ -233,8 +392,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA305742B650E770025F50E /* Preview Assets.xcassets in Resources */,
-				AEA305702B650E770025F50E /* Assets.xcassets in Resources */,
+				AE8F4BCE2B68E8A100D3C2C5 /* API_Documentation.md in Resources */,
+				AE8F4BD02B68E8E900D3C2C5 /* Getting_Started.md in Resources */,
+				AE8F4BC22B68E5A400D3C2C5 /* environment.plist in Resources */,
+				AE8F4BD22B68E90400D3C2C5 /* Integration_Guide.md in Resources */,
+				AE8F4BBC2B68E4C000D3C2C5 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +421,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA3056E2B650E730025F50E /* ContentView.swift in Sources */,
-				AEA3056C2B650E730025F50E /* iMessageGeminiApp.swift in Sources */,
+				AE8F4BAD2B68E23200D3C2C5 /* Main.swift in Sources */,
+				AEA305A62B6515320025F50E /* MessageView.swift in Sources */,
+				AEA305A82B65157E0025F50E /* ErrorView.swift in Sources */,
+				AE8F4BC72B68E77600D3C2C5 /* GeminiAPIManagerTests.swift in Sources */,
+				AE8F4BA82B68E1A400D3C2C5 /* ScriptController.swift in Sources */,
+				AE8F4BAB2B68E20800D3C2C5 /* AppDelegate.swift in Sources */,
+				AE8F4BA62B68E16F00D3C2C5 /* MessageController.swift in Sources */,
+				AEA305AD2B6516270025F50E /* APIKey.swift in Sources */,
+				AEA305AB2B65160E0025F50E /* GeminiAPIManager.swift in Sources */,
+				AEA305B22B6516A30025F50E /* GeminiService.swift in Sources */,
+				AEA305B02B65167A0025F50E /* IMessageService.swift in Sources */,
+				AE8F4BB22B68E2B900D3C2C5 /* PermissionsHelper.swift in Sources */,
+				AE8F4BCC2B68E85600D3C2C5 /* iMessageServiceTest.swift in Sources */,
+				AE8F4BC42B68E65800D3C2C5 /* ConfigManager.swift in Sources */,
+				AE8F4BB02B68E28E00D3C2C5 /* Configuration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +443,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA3057E2B650E770025F50E /* iMessageGeminiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +450,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA305882B650E780025F50E /* iMessageGeminiUITests.swift in Sources */,
-				AEA3058A2B650E780025F50E /* iMessageGeminiUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +588,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iMessageGemini/iMessageGemini.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -442,6 +615,8 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "JaredFramework/Views/iMessageGemini-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iMessageGemini/iMessageGemini.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -478,6 +654,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "JaredFramework/Views/iMessageGemini-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
